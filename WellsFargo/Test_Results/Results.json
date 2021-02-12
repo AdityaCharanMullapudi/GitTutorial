@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-15T12:12:03.719Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12488000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefiniton.CovidAlert.user_is_on_the_home_page()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Covid resources and response page is displayed from Home page",
+        "description": "",
+        "id": "verify-covid-response-page;verify-covid-resources-and-response-page-is-displayed-from-home-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefiniton.CovidAlert.user_should_be_able_to_navigate_back_to_home_page()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9252000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Home page",
+            "match": {
+              "location": "stepDefiniton.CovidAlert.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Alert icon is displayed on home page",
+            "match": {
+              "location": "stepDefiniton.CovidAlert.alert_icon_is_displayed_on_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6281000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicked on the Learn more link",
+            "match": {
+              "location": "stepDefiniton.CovidAlert.clicked_on_the_learn_more_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Covid Resources and Support page should be displayed",
+            "match": {
+              "location": "stepDefiniton.CovidAlert.covid_resources_and_support_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should be able to navigate back to Home page.",
+            "match": {
+              "location": "stepDefiniton.CovidAlert.user_should_be_able_to_navigate_back_to_home_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CovidAlert"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Covid Response Page",
+    "description": "",
+    "id": "verify-covid-response-page",
+    "keyword": "Feature",
+    "uri": "file:Feature/CovidAlert.feature",
+    "tags": [
+      {
+        "name": "@CovidAlert",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

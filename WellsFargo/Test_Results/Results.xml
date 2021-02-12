@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.987">
+<testcase classname="Verify Covid Response Page" name="Verify Covid resources and response page is displayed from Home page" time="28.458">
+<system-out><![CDATA[Given User is on the Home page..............................................passed
+When Alert icon is displayed on home page...................................passed
+And clicked on the Learn more link..........................................passed
+Then Covid Resources and Support page should be displayed...................passed
+And User should be able to navigate back to Home page.......................passed
+]]></system-out>
+</testcase>
+</testsuite>

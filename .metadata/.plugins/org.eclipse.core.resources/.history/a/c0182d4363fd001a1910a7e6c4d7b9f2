@@ -1,0 +1,5 @@
+Feature: Checkout
+Scenario: Checkout a banana
+Given the price of a "banana" is 5Rs
+When I checkout one "banana"
+Then the total price should be 5Rs
